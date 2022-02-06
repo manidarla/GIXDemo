@@ -35,9 +35,16 @@ and activate the new environment using
 
 conda activate GIX514Demo
 
+(The yaml file contains libraries supported by osx-arm64. It may not create the environment desired in all systems. So, you can capture the base python and numpy versions of your system)
+
+
 and run the python script GIX_envtest.py
 
 You should see the version numbers for python and the installed numpy package. Record these for your answer.... 
+
+
+
+
 
 
 Now let's do the same for someone else and setup an environment to share! (Also can be done in same system but in a different directory)
