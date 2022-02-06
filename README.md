@@ -4,7 +4,7 @@ Demo repository for TECHIN514
 
 This lab is designed to become familar with github and conda.  
 
-github is the tool for sharing code and working on projects together.  Its also sometimes important to manage dependencies so that everyone is running from the same set of libraries.
+Github is the tool for sharing code and working on projects together.  Its also sometimes important to manage dependencies so that everyone is running from the same set of libraries.
 
 We can do this with package managers or with python virtual environments. conda is a popular package manager that makes it easy to manage a list of library dependencies that might need to be installed. There are other options too of course, but conda is pretty good.
 
@@ -16,11 +16,11 @@ So for this lab...
 
 Install github and miniconda
 
-Follow the instructions provided in the lecture presentation. If entering your password during git push doesn't work check the below link for PAT:
+Follow the instructions provided in the lecture presentation. While testing, If entering your password during git push doesn't work check the below link for PAT:
 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
-You will be able to perform basic git operations with this.
+You will be able to perform basic git operations with this information.
 
 
 Now clone this repository (GIXDemo) onto your computer.
@@ -83,7 +83,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 1.19.2
 
 Pretty cool!  we've specified our environment exactly.
-now export your environemnt so you can share it with someone else.
+Now export your environemnt so you can share it with someone else.
 
 conda env export --name GIX514Assignment > GIX514Assignment.yaml
 
