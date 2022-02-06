@@ -48,9 +48,9 @@ As a task, You'll also need numpy installed, and we'll specify a specific versio
 
 Let's say for exmaple we need a specific version of numpy to be compatible with our code e.g. 1.19.2 (even though the current version might be 1.21)
 
-create a new conda environment called GIX514Assignment that includes numpy 1.19.5
+create a new conda environment called GIX514Assignment that includes numpy 1.19.2
 
-(conda create --name GIX514Assignment python=3.8 numpy=1.19.5)
+(conda create --name GIX514Assignment python=3.8 numpy=1.19.2)
 
 
 
