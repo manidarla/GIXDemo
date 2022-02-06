@@ -8,6 +8,8 @@ github is the tool for sharing code and working on projects together.  Its also 
 
 We can do this with package managers or with python virtual environments. conda is a popular package manager that makes it easy to manage a list of library dependencies that might need to be installed. There are other options too of course, but conda is pretty good.
 
+![Image from git-tower](git-tower.png)
+
 So for this lab... 
 
 Install github and miniconda
