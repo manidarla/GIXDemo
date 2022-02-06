@@ -44,7 +44,7 @@ Now let's do the same for someone else and setup an environment to share! (Also 
 
 create a new public repository, name it TECHIN514-xxxxx where xxxxx is whatever you think is a good name copy the file env-test.py from this repo into your new repository. (You can test commit and push your local repo to a remote repo here)
 
-As a task, You'll also need numpy installed, and we'll specify a specific version, and do to that we'll use conda.
+As a task, You'll also need numpy installed, and we'll specify a specific version, and to do that we'll use conda.
 
 Let's say for exmaple we need a specific version of numpy to be compatible with our code e.g. 1.19.2 (even though the current version might be 1.21)
 
