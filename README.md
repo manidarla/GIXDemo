@@ -42,9 +42,9 @@ and run the python script GIX_envtest.py
 
 You should see the version numbers for python and the installed numpy package. Record these for your answer.... 
 
-&nbsp;
-&nbsp;
-&nbsp;
+&nbsp; 
+&nbsp; 
+&nbsp; 
 
 
 
