@@ -1,4 +1,4 @@
-# GIXDemo
+# GIX Git Demo
 Demo repository for TECHIN514
 
 
@@ -10,10 +10,20 @@ We can do this with package managers or with python virtual environments. conda 
 
 ![Image from git-tower](git-tower.png)
 
+Image from git-tower.com/learn/git/ebook/en/command-line/remote-repositories
+
 So for this lab... 
 
 Install github and miniconda
-clone this repository (GIXDemo) onto your computer.
+
+Follow the instructions provided in the lecture presentation. If entering your password during git push doesn't work check the below link for PAT:
+
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+You will be able to perform basic git operations with this.
+
+
+Now clone this repository (GIXDemo) onto your computer.
 
 it includes a conda environment yaml that you'll need to activate.
 
@@ -50,7 +60,7 @@ Python 2.7.18 (default, Nov 13 2021, 06:17:34)
 [GCC Apple LLVM 13.0.0 (clang-1300.0.29.10) [+internal-os, ptrauth-isa=deployme on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import numpy as np
->>> print(np.__version__)
+>>> print(np.__version)
 1.8.0rc1
 >>>
 
