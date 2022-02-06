@@ -44,11 +44,6 @@ You should see the version numbers for python and the installed numpy package. R
 
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
 
 Now let's do the same for someone else and setup an environment to share! (Also can be done in same system but in a different directory)
 
