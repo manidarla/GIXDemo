@@ -16,6 +16,16 @@ So for this lab...
 
 Install github and miniconda
 
+(Install git on Windows
+https://git-scm.com/download/win
+
+Install git on Mac and Linux
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+Install miniconda/anaconda
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+
+
 Follow the instructions provided in the lecture presentation. While testing, If entering your password during git push doesn't work check the below link for PAT:
 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
