@@ -8,7 +8,9 @@ Github is the tool for sharing code and working on projects together.  Its also 
 
 We can do this with package managers or with python virtual environments. conda is a popular package manager that makes it easy to manage a list of library dependencies that might need to be installed. There are other options too of course, but conda is pretty good.
 
-![Image from git-tower](git-tower.png)
+<p align="center">
+  <img src="https://github.com/manidarla/GIXdemo/blob/main/git-tower.png" alt="git-tower image"/>
+</p>
 
 Image from git-tower.com/learn/git/ebook/en/command-line/remote-repositories
 
@@ -32,6 +34,9 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/c
 
 You will be able to perform basic git operations with this information.
 
+&nbsp; 
+
+## Activating existing environment:
 
 Now clone this repository (GIXDemo) onto your computer.
 
@@ -57,7 +62,7 @@ You should see the version numbers for python and the installed numpy package. R
 &nbsp; 
 
 
-
+## Creating new environment:
 Now let's do the same for someone else and setup an environment to share! (Also can be done in same system but in a different directory)
 
 create a new public repository, name it TECHIN514-xxxxx where xxxxx is whatever you think is a good name copy the file env-test.py from this repo into your new repository. (You can test commit and push your local repo to a remote repo here)
@@ -105,6 +110,20 @@ Now export your environemnt so you can share it with someone else.
 
 conda env export --name GIX514Assignment > GIX514Assignment.yaml
 
-Resources:
+### Resources and Notes:
 This is a good cheat sheet for conda https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf
+
+If you meet errors like:
+
+- 'git' is not recognized as an internal or external command, operable program or batch file.
+Please refer to the following page and change your Windows PATH variable.
+https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command
+
+- zsh: command not found: conda
+(For Mac users), refer:
+https://stackoverflow.com/questions/44597662/conda-command-is-not-recognized-on-windows-10
+
+To prevent conda on your system in activating by default, use the following:
+
+conda config --set auto_activate_base false
 
