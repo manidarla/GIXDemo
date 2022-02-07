@@ -98,7 +98,7 @@ Then check the list of available conda environments
 
 `conda env list`
 
-you should environment you just created, `GIX514Assignment`.  you can activate it with
+you should activate environment you just created, `GIX514Assignment`.  you can activate it with
 
 `conda activate GIX514Assignment`
 
