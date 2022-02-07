@@ -119,6 +119,9 @@ Now export your environemnt so you can share it with someone else.
 
 `conda env export --name GIX514Assignment > GIX514Assignment.yaml`
 
+## Fork, pull request amd merge:
+Github is a powerful tool when a project is developed and maitained by mutiple contributors. It allows contributors to freely edit and test after forking the repo to their own, and create a pull request to contribute to the original project. And the maintainer of the original project can review that request and decide whether to merge the new changes.
+
 ### Resources and Notes:
 This is a good cheat sheet for conda https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf
 
