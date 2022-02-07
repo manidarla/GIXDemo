@@ -122,7 +122,7 @@ Now export your environemnt so you can share it with someone else.
 ## Fork, pull request and merge:
 Github is a powerful tool when a project is developed and maitained by mutiple contributors. It allows contributors to freely edit and test after forking the repo to their own, and create a pull request to contribute to the original project. And the maintainer of the original project can review that request and decide whether to merge the new changes.
 
-First, a team meber other than the owner of your team repo should fork the repo to his/her/their own. Please refer to: https://docs.github.com/en/get-started/quickstart/fork-a-repo
+First, a team meber other than the owner of your team repo should fork the repo (your team's repo, not this repo) to his/her/their own. Please refer to: https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
 Next, in the new forked repo, add one more line to to 'GIX_envtest.py'
 
