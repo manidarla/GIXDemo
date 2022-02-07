@@ -126,7 +126,7 @@ First, a team meber other than the owner of your team repo should fork the repo 
 
 Next, in the new forked repo, add one more line to to 'GIX_envtest.py'
 
-'print('This is Team []')'
+`print('This is Team []')`
 
 Then, create a pull request, please refer to: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
 
